@@ -1,11 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-image: url('https://i0.wp.com/soulofmathematics.com/wp-content/uploads/2020/08/e94d13cdd8b76691c33c78d2f35325eb.gif');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
-    position: relative;
+    background-color: #012840;
     color: #0F8C8C;
     display: flex;
     justify-content: center;
@@ -14,17 +9,6 @@ body {
     margin: 0;
     padding: 20px;
     box-sizing: border-box;
-
-    &::before {
-        content: '';
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background-color: rgba(0, 0, 0, 0.5);
-        z-index: 0;
-    }
 }
 
 .container {
